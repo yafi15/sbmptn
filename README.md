@@ -16,6 +16,12 @@ Unfaedah *source code*. Hanya untuk hiburan semata. heheh.
 
 #### Selain data tersebut, tidak memiliki ketentuan khusus. Isi saja.
 
+## Notes
+
+**Terdapat 2 versi, *single* dan *non-single.***
+- `Single`: semua file assets digabung kedalam 1 file *index.php*.
+- `Non-Single`: semua file assets letaknya terpisah dari file *index.php*
+
 ## Author
 
 * Original html *source code* - [TIK LTMPT 2019](https://ltmpt.ac.id/)
