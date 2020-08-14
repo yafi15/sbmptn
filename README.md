@@ -14,7 +14,7 @@ Unfaedah *source code*. Hanya untuk hiburan semata. heheh.
 
 ## Usage
 
-- 2020: `Nomor Peserta` berjumlah 12 digit angka dan diisi dengan prefi **120**.
+- 2020: `Nomor Peserta` berjumlah 12 digit angka dan diisi dengan prefix **120**.
   - contoh: **120**123456789
 - 2019: `Nomor Peserta` berjumlah 10 digit angka dan diisi dengan prefix **119** untuk **SAINTEK** dan **219** untuk **SOSHUM**.
   - contoh: **119**987678 atau **219**987678
