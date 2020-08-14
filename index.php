@@ -3,9 +3,9 @@ error_reporting(0);
 ?>
 <!--
     ********************************************************
-    Fake Generator - Pengumuman SBMPTN LTMPTN 2019
+    Fake Generator - Pengumuman SBMPTN LTMPTN 2020
     Author: @naufalist //https://github.com/naufalist/sbmptn
-    Original Source Code: Tim TIK LTMPT 2019
+    Original Source Code: Tim TIK LTMPT 2020
     ********************************************************
 -->
 <!DOCTYPE html>
@@ -39,7 +39,7 @@ error_reporting(0);
 	  })();
 	</script-->
 	<!-- End Matomo Code -->
-	<title>Pengumuman SBMPTN LTMPT 2019</title>
+	<title>Pengumuman SBMPTN LTMPT 2020</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="images/favicon.ico" />
@@ -55,8 +55,8 @@ error_reporting(0);
 	function validateForm() {
         var x = document.forms["sbm"]["nopes"].value;
         var p = x.substring(0, 3);
-        if ((x.length !== 10) || ((p !== "119") && (p !== "219"))) {
-            setTimeout(function () { swal("Invalid!","Periksa kembali penulisan Nomor Pendaftaran!\n\nKetentuan:\n- Jumlah digit 10\n- Diawali 119 (SAINTEK) atau 219 (SOSHUM)","error")}, 1000);
+        if ((x.length !== 12) || ((p !== "120") && (p !== "220"))) {
+            setTimeout(function () { swal("Invalid!","Periksa kembali penulisan Nomor Pendaftaran!\n\nKetentuan:\n- Jumlah digit 12\n- Diawali 120 (SAINTEK) atau 220 (SOSHUM)","error")}, 1000);
             return false;
         }
 	}
@@ -78,7 +78,7 @@ error_reporting(0);
 				</div>
 				<div class="col-2 col-sm-2 d-none d-sm-block">
 					<div class="text-center">
-						<img src="images/indonesia-74.png" class="img-fluid" alt="Logo HUT Indonesia ke-74" />
+						<img src="images/indonesia-75.png" class="img-fluid" width="62" height="100" alt="Logo HUT Indonesia ke-75" />
 					</div>
 				</div>
 			</div>
@@ -103,7 +103,7 @@ error_reporting(0);
 				</div>
 				<div class="col-3 d-block d-sm-none mt-2">
 					<div class="text-center">
-						<img src="images/indonesia-74.png" class="img-fluid" alt="Logo HUT Indonesia ke-74" />
+						<img src="images/indonesia-75.png" class="img-fluid" width="62" height="100" alt="Logo HUT Indonesia ke-75" />
 					</div>
 				</div>
 			</div>
@@ -125,7 +125,7 @@ error_reporting(0);
 		<div class="void"></div>
 		<div class="row m-1">
 			<div class="col-12 text-center">
-				<span class="title">PENGUMUMAN HASIL SELEKSI SBMPTN LTMPT 2019</span>
+				<span class="title">PENGUMUMAN HASIL SELEKSI SBMPTN LTMPT 2020</span>
 			</div>
 		</div>
 		<div class="void"></div>
@@ -143,7 +143,8 @@ error_reporting(0);
 				<strong>Masukkan data peserta SBMPTN Anda.</strong>	
 			</div>
 			<div class="card-body">
-				<form name="sbm" method="POST" onsubmit="return validateForm()" action="">
+				<form name="sbm" method="POST" action="">
+				<!-- <form name="sbm" method="POST" onsubmit="return validateForm()" action=""> -->
 				<!--div class="form-group">
 					<label for="nopes">Nomor peserta SBMPTN</label>
 					<input type="number" id="nopes" class="form-control no-spinners" tabindex="1" size="10" autocomplete="off">
@@ -151,8 +152,8 @@ error_reporting(0);
 				</div-->
 				<div class="form-group">
 					<label for="nopes">Nomor peserta SBMPTN</label>
-					<input type="number" id="nopes" name="nopes" class="form-control no-spinners" tabindex="1" size="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10" autocomplete="off" required="">
-					<small id="nopes-help" class="form-text text-muted">Masukkan 10-digit nomor peserta Anda.</small>
+					<input type="number" id="nopes" name="nopes" class="form-control no-spinners" tabindex="1" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="12" autocomplete="off" required="">
+					<small id="nopes-help" class="form-text text-muted">Masukkan 12-digit nomor peserta UTBK-SBMPTN Anda.</small>
 				</div>
 				<div class="form-group">
 					<label for="nama">Nama peserta</label>
@@ -218,14 +219,14 @@ error_reporting(0);
 							<select name="year" id="year" class="form-control no-spinners" tabindex="5" autocomplete="off" required="">
 								<option value="" disabled="" selected="">yyyy</option>
 <?php
-    for ($i = 2009; $i >= 1978; $i--) {
+    for ($i = 2010; $i >= 1978; $i--) {
 ?>
                                 <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 <?php
     }
 ?>
                             </select>
-							<small id="year-help" class="form-text text-muted">Tahun (4 digit): 1978-2009</small>
+							<small id="year-help" class="form-text text-muted">Tahun (4 digit): 1978-2010</small>
 						</div>
 					</div>
 				</div>
@@ -263,7 +264,7 @@ error_reporting(0);
                 </form>
 			</div>
 		</div>
-		<p class="text-center"><small class="text-muted">&copy; 2019. <b>Bukan</b> Lembaga Tes Masuk Perguruan Tinggi</small></p>
+		<p class="text-center"><small class="text-muted">&copy; 2020. <b>Bukan</b> Lembaga Tes Masuk Perguruan Tinggi</small></p>
 	
 	</div>
 
@@ -271,7 +272,7 @@ error_reporting(0);
 		<div class="void"></div>
 		<div class="row m-1">
 			<div class="col-12 text-center">
-				<span class="title">PENGUMUMAN HASIL SELEKSI SBMPTN LTMPT 2019</span>
+				<span class="title">PENGUMUMAN HASIL SELEKSI SBMPTN LTMPT 2020</span>
 			</div>
 		</div>
 		<div class="void"></div>
@@ -291,7 +292,17 @@ error_reporting(0);
 									:
 								</div>
 								<div class="col-12 col-sm-8" style="font-weight: bold;">
-									<span id="no-peserta-diterima"><?php if(isset($_POST['submit'])){echo substr($_POST["nopes"], 0,3); echo " - "; echo substr($_POST["nopes"], 3);} ?></span>
+									<span id="no-peserta-diterima"><?php if(isset($_POST['submit'])){
+										
+										echo substr($_POST["nopes"], 0,3);
+										echo " - ";
+										echo substr($_POST["nopes"], 3,3);
+										echo " - ";
+										echo substr($_POST["nopes"], 6,2);
+										echo " - ";
+										echo substr($_POST["nopes"], -4);
+										
+									}?></span>
 								</div>
 							</div>
 							<div class="row no-gutters">
@@ -319,7 +330,7 @@ error_reporting(0);
 							<br>
 							<div class="row">
 								<div class="col-12">
-									<span style="font-size: 1.1em;">Selamat! Anda dinyatakan lulus seleksi SBMPTN LTMPT 2019 di</span>
+									<span style="font-size: 1.1em;">Selamat! Anda dinyatakan lulus seleksi SBMPTN LTMPT 2020 di</span>
 								</div>
 							</div>
 							<div class="row no-gutters">
@@ -353,7 +364,8 @@ error_reporting(0);
 							<br>
 							<div class="row" id="bidik-misi" style="display: none;">
 								<div class="col-12">
-									<p style="color: red;">Anda sebagai pemohon program BIDIKMISI, keputusan DITERIMA atau TIDAKNYA permohonan program BIDIKMISI Anda akan disampaikan oleh Rektor PTN di mana Anda diterima berdasarkan hasil VERIFIKASI.</p>
+									<p style="color: red;">Anda sebagai pendaftar  Program  Indonesia  Pintar  Pendidikan  Tinggi,  calon  pemegang  Kartu Indonesia Pintar Kuliah (KIP Kuliah) harus lolos verifikasi terhadap data akademik dan verifikasi  data  ekonomi  melalui  dokumen  dan/atau  kunjungan  ke  alamat  tinggal Peserta.</p>
+									<!-- <p style="color: red;">Anda sebagai pemohon program BIDIKMISI, keputusan DITERIMA atau TIDAKNYA permohonan program BIDIKMISI Anda akan disampaikan oleh Rektor PTN di mana Anda diterima berdasarkan hasil VERIFIKASI.</p> -->
 								</div>
 							</div>
 							<div class="row">
@@ -364,7 +376,8 @@ error_reporting(0);
 							<br>
 							<div class="row">
 								<div class="col-12">
-									<span>Anda dapat mencetak kembali Kartu Tanda Peserta SBMPTN 2019 di <a target="_blank" href="https://pendaftaran-sbmptn.ltmpt.ac.id">sini</a>.</span>
+									<span>Anda dapat mencetak kembali Kartu Tanda Peserta UTBK-SBMPTN 2020 di <a target="_blank" href="https://portal.ltmpt.ac.id">sini</a>.</span>
+									<!-- <span>Anda dapat mencetak kembali Kartu Tanda Peserta SBMPTN 2019 di <a target="_blank" href="https://pendaftaran-sbmptn.ltmpt.ac.id">sini</a>.</span> -->
 								</div>
 							</div>
 							<br>
@@ -387,14 +400,14 @@ error_reporting(0);
 		<div class="void"></div>
 		<div class="row m-1">
 			<div class="col-12 text-center">
-				<span class="title">PENGUMUMAN HASIL SELEKSI SBMPTN 2019</span>
+				<span class="title">PENGUMUMAN HASIL SELEKSI SBMPTN 2020</span>
 			</div>
 		</div>
 		<div class="void"></div>
 		<div class="card card-block bg-faded mx-auto">
 			<div class="card-body">
 				<p class="text-center" style="font-size: 1em;">
-					PESERTA ATAS NAMA <strong><span id="nama-peserta-tidak-terima"></span></strong> DENGAN NOMOR PESERTA <strong><span id="no-peserta-tidak-diterima"></span></strong> DINYATAKAN <strong>TIDAK DITERIMA</strong> PADA SBMPTN LTMPT 2019.
+					PESERTA ATAS NAMA <strong><span id="nama-peserta-tidak-terima"></span></strong> DENGAN NOMOR PESERTA <strong><span id="no-peserta-tidak-diterima"></span></strong> DINYATAKAN <strong>TIDAK DITERIMA</strong> PADA SBMPTN LTMPT 2020.
 				</p>
 				<p class="text-center" style="font-weight: bold; font-size: 1.5em;">JANGAN PUTUS ASA DAN TETAP SEMANGAT!</p>
 			</div>
@@ -408,7 +421,7 @@ error_reporting(0);
 
 	<!-- footer class="footer">
       <div class="container">
-        <p class="text-muted text-center">Panitia Pusat SBMPTN 2019</p>
+        <p class="text-muted text-center">Panitia Pusat SBMPTN 2020</p>
       </div>
     </footer -->
 
@@ -443,7 +456,7 @@ if (isset($_POST['submit'])) {
 } else {
     echo '
         <script type="text/javascript">
-        setTimeout(function () { swal("Perhatian!","Format No. Pendaftaran (10 digit):\nSAINTEK -> 119xxxxxxx\nSOSHUM -> 219xxxxxxx\n\nIni hanya untuk hiburan semata.\nGunakan dengan bijak!","warning")}, 1000);
+        setTimeout(function () { swal("Perhatian!","Format No. Pendaftaran 12 digit\n\nIni hanya untuk hiburan semata.\nGunakan dengan bijak!","warning")}, 1000);
         </script>
     ';
 }
