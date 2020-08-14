@@ -39,11 +39,22 @@ error_reporting(0);
 	  })();
 	</script-->
 	<!-- End Matomo Code -->
+
 	<title>Pengumuman SBMPTN LTMPT 2020</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="images/favicon.ico" />
 	<!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /-->	
+		
+	<link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+	<link rel="manifest" href="images/icon/site.webmanifest">
+	<link rel="mask-icon" href="images/icon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="images/icon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="images/icon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	
 	<link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="sbmptn.css" />
 	<script type="text/javascript" src="sbmptn.js"></script>
@@ -456,7 +467,7 @@ if (isset($_POST['submit'])) {
 } else {
     echo '
         <script type="text/javascript">
-        setTimeout(function () { swal("Perhatian!","Format No. Pendaftaran 12 digit\n\nIni hanya untuk hiburan semata.\nGunakan dengan bijak!","warning")}, 1000);
+        setTimeout(function () { swal("Perhatian!","Untuk sementara, format No Peserta yang saya tau:\nprefix 120, 12 digit\nex: 120XXXXXXXXX\n\nKalo sekiranya ada yg perlu diralat, contact saya via sosmed ya gan/sis, makasii\n\nIni hanya untuk hiburan semata.\nGunakan dengan bijak!","warning")}, 1000);
         </script>
     ';
 }
