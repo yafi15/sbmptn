@@ -5,7 +5,7 @@ error_reporting(0);
     ********************************************************
     Fake Generator - Pengumuman SBMPTN LTMPTN 2020
     Author: @naufalist //https://github.com/naufalist/sbmptn
-    Original Source Code: Tim TIK LTMPT 2020
+    Original Source Code: Team TIK LTMPT 2020
     ********************************************************
 -->
 <!DOCTYPE html>
@@ -40,7 +40,7 @@ error_reporting(0);
 	</script-->
 	<!-- End Matomo Code -->
 
-	<title>Pengumuman SBMPTN LTMPT 2020</title>
+	<title>Pengumuman Kelulusan SBMPTN LTMPT 2020</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /-->	
@@ -151,7 +151,7 @@ error_reporting(0);
 
 		<div class="card card-block bg-faded mx-auto box-width">
 			<div class="card-header">
-				<strong>Masukkan data peserta SBMPTN Anda.</strong>	
+				<strong>Masukkan data peserta SBMPTN LTMPT Anda.</strong>	
 			</div>
 			<div class="card-body">
 				<form name="sbm" method="POST" action="">
@@ -167,12 +167,12 @@ error_reporting(0);
 					<small id="nopes-help" class="form-text text-muted">Masukkan 12-digit nomor peserta UTBK-SBMPTN Anda.</small>
 				</div>
 				<div class="form-group">
-					<label for="nama">Nama peserta</label>
+					<label for="nama">Nama Peserta SBMPTN</label>
 					<input type="text" id="nama" name="nama" class="form-control no-spinners" tabindex="2" autocomplete="off" style="text-transform:uppercase" required="">
-					<small id="nama-help" class="form-text text-muted">Masukkan nama peserta Anda.</small>
+					<small id="nama-help" class="form-text text-muted">Masukkan nama peserta SBMPTN Anda.</small>
 				</div>
 				<div class="form-group">
-					<label>Tanggal lahir</label>
+					<label>Tanggal lahir Peserta</label>
 					<div class="form-row">
                         <!--
 						<div class="col">
